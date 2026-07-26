@@ -1,5 +1,13 @@
 // MRO Advocacy · scripts compartilhados
 document.addEventListener('DOMContentLoaded', function () {
+  // header translúcido após rolagem
+  var header = document.querySelector('.site-header');
+  if (header) {
+    var onScroll = function () { header.classList.toggle('scrolled', window.scrollY > 8); };
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+  }
+
   // menu mobile
   var burger = document.querySelector('.burger');
   var menu = document.getElementById('menu');
