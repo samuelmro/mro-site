@@ -15,7 +15,7 @@
 <meta name="twitter:card" content="summary">
 <!-- /og -->
 <link rel="icon" type="image/png" href="assets/mro-favicon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200;0,6..72,300;0,6..72,400;1,6..72,300;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Cinzel:wght@400;500;600&family=Hanken+Grotesk:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
@@ -28,6 +28,19 @@
 </header>
 
 <div class="hero reveal">
+  <div class="hero-grain" aria-hidden="true"></div>
+  <div class="hero-grid" aria-hidden="true"></div>
+  <div class="hero-glow" aria-hidden="true"></div>
+  <svg class="hero-chart" aria-hidden="true" viewBox="0 0 1200 700" preserveAspectRatio="xMidYMid meet">
+    <path d="M20,540 C160,510 260,430 360,440 C470,452 540,330 660,300 C780,270 840,190 980,140 C1060,112 1100,95 1180,60" fill="none" stroke="var(--terra)" stroke-width="2" stroke-linecap="round"></path>
+    <line x1="360" y1="440" x2="360" y2="620" stroke="var(--terra)" stroke-width="1"></line>
+    <line x1="660" y1="300" x2="660" y2="620" stroke="var(--terra)" stroke-width="1"></line>
+    <line x1="980" y1="140" x2="980" y2="620" stroke="var(--terra)" stroke-width="1"></line>
+    <circle cx="360" cy="440" r="5" fill="var(--terra)"></circle>
+    <circle cx="660" cy="300" r="5" fill="var(--terra)"></circle>
+    <circle cx="980" cy="140" r="5" fill="var(--terra)"></circle>
+    <circle cx="1180" cy="60" r="6" fill="var(--terra)"></circle>
+  </svg>
   <div class="wrap">
     <div class="kick">Consultoria e Advocacy Econômico</div>
     <h1>Evidência quantitativa como <em>argumento</em> de decisão.</h1>
@@ -85,7 +98,7 @@
 <section class="reveal">
   <div class="wrap" style="text-align:center;padding:30px 0 10px">
     <div class="kick" style="justify-content:center">Fale com a MRO</div>
-    <h2 style="font-size:clamp(1.9rem,3.6vw,3rem);font-weight:200;color:var(--azul);margin:18px 0 26px;letter-spacing:-.01em">Vamos transformar dados em <em style="font-style:italic;color:var(--terra)">argumento</em>.</h2>
+    <h2 style="font-family:var(--font-display);font-size:clamp(1.9rem,3.6vw,3rem);font-weight:600;color:var(--azul);margin:18px 0 26px;letter-spacing:-.01em">Vamos transformar dados em <em style="font-style:italic;color:var(--terra)">argumento</em>.</h2>
     <a href="contato.html" class="btn btn-primary">Entre em contato</a>
   </div>
 </section>
